@@ -12,10 +12,10 @@ Pod::Spec.new do |spec|
 
   spec.source       = {
     :git => "https://github.com/SwapnilDhotre/trial_app_ui.git",
-    :tag => spec.version.to_s
+    :tag => 1.0.2
   }
 
-  spec.source_files = "Sources/MyUIKit/**/*.swift"
+  spec.source_files = "Sources/trial_app_ui/**/*.swift"
   spec.resources    = "Resources/**/*"
 
   spec.frameworks   = "UIKit"
