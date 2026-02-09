@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "trial_app_ui"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   spec.summary      = "Reusable UI components for iOS apps"
   spec.description  = "A design system and UI component library used across iOS apps."
   spec.homepage     = "https://github.com/SwapnilDhotre/trial_app_ui"
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = {
     :git => "https://github.com/SwapnilDhotre/trial_app_ui.git",
-    :tag => "1.0.4"
+    :tag => "1.0.5"
   }
 
   spec.source_files = "trial_app_ui/**/*.swift"
